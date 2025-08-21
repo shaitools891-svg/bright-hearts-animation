@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "title": "Annual Charity Gala",
+    "titleBn": "বার্ষিক দাতব্য গালা",
+    "description": "Join us for our annual fundraising gala.",
+    "descriptionBn": "আমাদের বার্ষিক তহবিল সংগ্রহ গালায় আমাদের সাথে যোগ দিন।",
+    "date": "2024-06-15",
+    "time": "18:00",
+    "location": "Community Center Hall",
+    "locationBn": "কমিউনিটি সেন্টার হল",
+    "image": "/images/events/gala.jpg",
+    "status": "upcoming"
+  }
+]

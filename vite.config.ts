@@ -19,4 +19,18 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: "/", // Change this to your repository name for GitHub Pages, e.g., "/your-repo-name/"
+  build: {
+    outDir: "dist",
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          animations: ['framer-motion'],
+          i18n: ['react-i18next', 'i18next']
+        }
+      }
+    }
+  }
 }));

@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "nameBn": "জন ডো",
+    "role": "President",
+    "roleBn": "সভাপতি",
+    "bio": "Leading the organization with passion and dedication.",
+    "bioBn": "আবেগ এবং নিষ্ঠার সাথে সংস্থার নেতৃত্ব দিচ্ছেন।",
+    "image": "/images/team/john-doe.jpg",
+    "email": "john@brighthearts.org",
+    "linkedin": "",
+    "facebook": ""
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "nameBn": "জেন স্মিথ",
+    "role": "Vice President",
+    "roleBn": "সহ-সভাপতি",
+    "bio": "Coordinating programs and community outreach.",
+    "bioBn": "প্রোগ্রাম এবং কমিউনিটি আউটরিচ সমন্বয় করছেন।",
+    "image": "/images/team/jane-smith.jpg",
+    "email": "jane@brighthearts.org",
+    "linkedin": "",
+    "facebook": ""
+  }
+]

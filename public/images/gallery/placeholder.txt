@@ -1,0 +1,4 @@
+Add gallery photos here:
+- Use descriptive names with dates (e.g., education-launch-1.jpg)
+- Any size is acceptable, but maintain good quality
+- Supported formats: .jpg, .jpeg, .png, .webp
