@@ -36,5 +36,24 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+  // Store the redirect in sessionStorage for SPA routing
+  (function() {
+    let redirect = '';
+    const searchParams = new URLSearchParams(window.location.search);
+    if (searchParams.has('/')) {
+      redirect = searchParams.get('/').replace(/~and~/g, '&');
+      searchParams.delete('/');
+      const newSearch = searchParams.toString();
+      const newPath = window.location.pathname.split('/')[0] + 
+        (newSearch ? '?' + newSearch : '') + 
+        window.location.hash;
+      window.history.replaceState({}, '', newPath);
+    }
+    if (redirect) {
+      sessionStorage.redirect = redirect;
+    }
+  })();
+</script>
   </body>
 </html>
