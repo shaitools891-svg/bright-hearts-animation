@@ -1,0 +1,4 @@
+Add event cover images here:
+- Use event names (e.g., gala.jpg, workshop.jpg)
+- Recommended size: 800x600px minimum
+- Supported formats: .jpg, .jpeg, .png, .webp

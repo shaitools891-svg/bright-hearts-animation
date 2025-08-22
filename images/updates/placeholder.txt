@@ -1,0 +1,4 @@
+Add program update images here:
+- Use descriptive names (e.g., education-launch.jpg)
+- Any size is acceptable
+- Supported formats: .jpg, .jpeg, .png, .webp

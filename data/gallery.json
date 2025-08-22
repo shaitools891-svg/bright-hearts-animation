@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Education Program Launch",
+    "titleBn": "শিক্ষা কর্মসূচি চালু",
+    "description": "Photos from our education program launch event.",
+    "descriptionBn": "আমাদের শিক্ষা কর্মসূচি চালু অনুষ্ঠানের ছবি।",
+    "image": "/images/gallery/education-launch-1.jpg",
+    "category": "programs",
+    "date": "2024-01-20"
+  },
+  {
+    "id": 2,
+    "title": "Team Meeting",
+    "titleBn": "দলীয় সভা",
+    "description": "Monthly team coordination meeting.",
+    "descriptionBn": "মাসিক দলীয় সমন্বয় সভা।",
+    "image": "/images/gallery/team-meeting-1.jpg",
+    "category": "team",
+    "date": "2024-01-10"
+  }
+]

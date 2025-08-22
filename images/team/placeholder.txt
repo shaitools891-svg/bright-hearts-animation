@@ -1,0 +1,5 @@
+Add team member photos here with the following naming convention:
+- firstname-lastname.jpg (e.g., john-doe.jpg)
+- Use lowercase and hyphens for spaces
+- Recommended size: 400x400px minimum
+- Supported formats: .jpg, .jpeg, .png, .webp

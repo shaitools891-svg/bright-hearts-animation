@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Education Support Program",
+    "titleBn": "শিক্ষা সহায়তা কর্মসূচি",
+    "description": "Providing educational materials and support to underprivileged children.",
+    "descriptionBn": "সুবিধাবঞ্চিত শিশুদের শিক্ষা উপকরণ এবং সহায়তা প্রদান করা।",
+    "image": "/images/programs/education.jpg",
+    "status": "active",
+    "startDate": "2024-01-15",
+    "updates": [
+      {
+        "id": 1,
+        "date": "2024-01-20",
+        "title": "Program Launch",
+        "titleBn": "কর্মসূচি চালু",
+        "content": "Successfully launched the education support program with 50 students.",
+        "contentBn": "৫০ জন শিক্ষার্থী নিয়ে শিক্ষা সহায়তা কর্মসূচি সফলভাবে চালু করা হয়েছে।",
+        "images": ["/images/updates/education-launch.jpg"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Community Health Initiative",
+    "titleBn": "কমিউনিটি স্বাস্থ্য উদ্যোগ",
+    "description": "Free health checkups and awareness campaigns.",
+    "descriptionBn": "বিনামূল্যে স্বাস্থ্য পরীক্ষা এবং সচেতনতা প্রচারণা।",
+    "image": "/images/programs/health.jpg",
+    "status": "active",
+    "startDate": "2024-02-01",
+    "updates": []
+  }
+]

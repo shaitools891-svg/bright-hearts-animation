@@ -1,0 +1,4 @@
+Add program cover images here:
+- Use descriptive names (e.g., education.jpg, health.jpg)
+- Recommended size: 800x600px minimum
+- Supported formats: .jpg, .jpeg, .png, .webp
