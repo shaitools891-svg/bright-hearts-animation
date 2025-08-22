@@ -19,7 +19,7 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/", // Change this to your repository name for GitHub Pages, e.g., "/your-repo-name/"
+  base: process.env.NODE_ENV === 'production' ? "/bright-hearts-animation/" : "/",
   build: {
     outDir: "dist",
     sourcemap: false,
