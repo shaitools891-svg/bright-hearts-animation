@@ -19,7 +19,7 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: process.env.NODE_ENV === 'production' ? "/bright-hearts-animation/" : "/",
+  base: "/bright-hearts-animation/",
   build: {
     outDir: "dist",
     sourcemap: false,
