@@ -1,6 +1,6 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Toaster } from '@/components/ui/toaster';
-import Website from '@/components/Website';
+import { Website } from '@/components/Website'; // Changed to named import
 import Admin from '@/pages/Admin';
 import NotFound from '@/pages/NotFound';
 
