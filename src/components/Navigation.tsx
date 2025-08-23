@@ -15,11 +15,11 @@ export const Navigation = ({ activeSection, onNavigate }: NavigationProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { key: 'home', label: t('nav.home') },
-    { key: 'about', label: t('nav.about') },
-    { key: 'team', label: t('nav.team') },
-    { key: 'programs', label: t('nav.programs') },
-    { key: 'contact', label: t('nav.contact') },
+    { key: 'home', label: 'nav.home' },
+    { key: 'about', label: 'nav.about' },
+    { key: 'team', label: 'nav.team' },
+    { key: 'programs', label: 'nav.programs' },
+    { key: 'contact', label: 'nav.contact' },
   ];
 
   const handleNavigate = (section: string) => {
@@ -66,7 +66,7 @@ export const Navigation = ({ activeSection, onNavigate }: NavigationProps) => {
                     : 'text-foreground hover:text-primary'
                 }`}
               >
-                {item.label}
+                {t(item.label)}
               </motion.button>
             ))}
             <motion.div
@@ -121,7 +121,7 @@ export const Navigation = ({ activeSection, onNavigate }: NavigationProps) => {
                         : 'text-foreground hover:text-primary hover:bg-muted'
                     }`}
                   >
-                    {item.label}
+                    {t(item.label)}
                   </motion.button>
                 ))}
               </div>
