@@ -5,7 +5,7 @@ import { AdminDashboard } from '@/components/admin/AdminDashboard';
 // Simple password hash - in production, use a proper hashing library
 const ADMIN_PASSWORD_HASH = 'admin123'; // Change this to your desired password
 
-export const Admin = () => {
+const Admin = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -47,3 +47,5 @@ export const Admin = () => {
 
   return <AdminDashboard onLogout={handleLogout} />;
 };
+
+export default Admin; // Changed to default export
