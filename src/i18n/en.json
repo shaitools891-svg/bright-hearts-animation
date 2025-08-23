@@ -1,0 +1,23 @@
+{
+  "hero": {
+    "title": "Bright Hearts Brighter Society",
+    "subtitle": "Empowering communities through education, healthcare, and sustainable development",
+    "cta": "Get Involved"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "team": "Team",
+    "programs": "Programs",
+    "contact": "Contact",
+    "admin": "Admin"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a non-profit organization dedicated to creating positive change in communities through education, healthcare, and sustainable development programs."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with us to learn more about our programs or to get involved."
+  }
+}
